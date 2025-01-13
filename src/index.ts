@@ -18,9 +18,9 @@ const garminAppLogin = async (driver: SeleniumDriver) => {
     return true;
   }
 
-  await driver.sendKeys("galvanipedro11@gmail.com", false, '//*[@id="email"]');
+  await driver.sendKeys("fake-email@email.com", false, '//*[@id="email"]');
 
-  await driver.sendKeys("V!v!guita123", false, '//*[@id="password"]');
+  await driver.sendKeys("fake-password", false, '//*[@id="password"]');
 
   await driver.clickElement(
     false,
